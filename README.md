@@ -91,24 +91,27 @@ In collaborative projects, public repositories encourage broad contributions and
 
 ## Detail the steps involved in making your first commit to a GitHub repository. What are commits, and how do they help in tracking changes and managing different versions of your project?
 
-Steps to Making my First Commit to Github, before you there are basically two main step approach.
+To make your first commit to GitHub, follow these steps:
 
-1. Have a local repository to be pushed to the remote server (GitHub)
-2. Create a remote repository where you store your local code.
-   Now the steps are;
-3. You will have to create a directory to keep your project. Eg. Plp-Software-Engineering
-4. Create a file with the linux command touch. Eg touch assignment.txt
-5. You will have to initialize the repository so you can perform git operations using git init. Eg git init
-6. Add the file(s) to the staging area so Git can track it using the git add command. Eg. git add assignment.txt
-7. Make your first commit to save the changes in the repository using the git commit -m/-am/-A command. Eg. git commit -m "Initial commit: Added assignment.txt"
-8. Connect your local repository to a remote GitHub repository( what we created on GitHub) using the git remote add origin. Eg. git remote add origin https://github.com/<your-username>/<repo-name>.git
-9. You push your code to the connected remote server(GitHub Repository created) using the git push -u command. Eg. git push -u origin main
+1. Create a local repository to be pushed to the remote server (GitHub).
+2. Create a remote repository on GitHub to store your local code.
+
+Steps:
+
+1. Create a directory for your project, for example, `Plp-Software-Engineering`.
+2. Create a file using the command `touch`, for example, `touch assignment.txt`.
+3. Initialize the repository to perform git operations using `git init`, for example, `git init`.
+4. Add the file(s) to the staging area so Git can track them using `git add`, for example, `git add assignment.txt`.
+5. Make your first commit to save the changes in the repository using `git commit -m`, for example, `git commit -m "Initial commit: Added assignment.txt"`.
+6. Connect your local repository to the remote GitHub repository using `git remote add origin`, for example, `git remote add origin https://github.com/<your-username>/<repo-name>.git`.
+7. Push your code to the connected remote server (GitHub repository) using `git push -u`, for example, `git push -u origin main`.
 
 A commit is a snapshot of your project at a particular point in time. It records changes made to files, allowing you to:
 
 1. Track changes over time.
 2. Revert to previous versions if necessary.
 3. Collaborate efficiently by sharing updates with teammates.
+
 
 ## How does branching work in Git, and why is it an important feature for collaborative development on GitHub? Discuss the process of creating, using, and merging branches in a typical workflow.
 
@@ -131,10 +134,9 @@ The typical process involves creating a new branch, making changes, pushing the 
 
 Forking a repository on GitHub allows a user to create a personal copy of an existing repository under their own account. This enables them to modify the code without affecting the original project. It is commonly used in open-source development, where contributors fork a project, make changes, and then submit a pull request to merge their improvements into the original repository.
 
-How Forking Differs from Cloning  
-While forking creates a copy of the repository on GitHub, cloning downloads the repository to a local machine for development. A forked repository remains linked to the original (upstream) repository, allowing the user to pull updates from it, whereas a cloned repository is an independent copy without any automatic connection to the original source.
+Forking differs from cloning in that forking creates a copy of the repository on GitHub, while cloning downloads the repository to a local machine for development. A forked repository remains linked to the original (upstream) repository, allowing the user to pull updates from it, whereas a cloned repository is an independent copy without any automatic connection to the original source.
 
-Scenarios Where Forking is Useful:
+Forking is particularly useful in several scenarios:
 
 1. Contributing to Open Source – Developers fork a repository to contribute code, fix bugs, or add features before submitting a pull request.
 2. Experimenting Without Affecting the Original – Forking allows users to test modifications without impacting the main project.
