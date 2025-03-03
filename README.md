@@ -38,16 +38,18 @@ When projects follow coordinated GitHub practices their team can produce quality
 
 ## Describe the process of setting up a new repository on GitHub. What are the key steps involved, and what are some of the important decisions you need to make during this process?
 
-How to SetUp a New Repository on GitHub
-1️. Go to GitHub ([github.com](https://github.com)) and log in. 2. Click the "+" icon in the top right and select "New repository". 3. Enter a repository name (e.g., `my-project`). 4. Choose visibility:
+To set up a new repository on GitHub, follow these steps:
 
-- Public(anyone can see it)
-- Private (only you and invited collaborators can access it).
-
-5. Initialize repository (optional):
-   - Add a README file (recommended for project description).
-   - Add a `.gitignore` file to exclude unnecessary files.
-   - Choose a license if applicable.
+1. Go to GitHub (https://github.com) and log in.
+2. Click the "+" icon in the top right corner and select "New repository".
+3. Enter a name for your repository (e.g., `my-project`).
+4. Choose the visibility of your repository:
+   - Public: Anyone can see it.
+   - Private: Only you and invited collaborators can access it.
+5. Optionally, initialize your repository by:
+   - Adding a README file to describe your project.
+   - Adding a `.gitignore` file to exclude unnecessary files.
+   - Choosing a license if applicable.
 6. Click "Create repository".
 
 Important Decisions to make
