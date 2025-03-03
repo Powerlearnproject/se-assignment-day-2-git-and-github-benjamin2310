@@ -145,35 +145,38 @@ Scenarios Where Forking is Useful:
 
 GitHub Issues and Project Boards are essential tools for tracking bugs, managing tasks, and improving project organization. They enhance collaboration by providing a structured way to plan, assign, and monitor progress on development tasks.
 
-How They Help
-1️. Tracking Bugs
+How They Help:
 
-- Developers can create an Issue to document a bug, describe its impact, and assign it to a team member.
-- Example: A user reports a login failure, so an Issue is created with labels like `bug`, `high-priority`, and a detailed reproduction guide.
-  2️. Managing Tasks
-- Tasks can be broken down into Issues and assigned to contributors with deadlines.
-- Example: A project manager creates Issues for UI redesign tasks and assigns them to frontend developers.
-  3️. Improving Project Organization
-- GitHub Project Boards use Kanban-style task management to categorize work into columns like `To Do`, `In Progress`, and `Done`.
-- Example: A DevOps team managing infrastructure changes creates a board with tasks for configuring AWS, setting up CI/CD, and monitoring logs.
+1. Tracking Bugs:
+    - Developers can create an Issue to document a bug, describe its impact, and assign it to a team member.
+    - Example: A user reports a login failure, so an Issue is created with labels like `bug`, `high-priority`, and a detailed reproduction guide.
 
-How These Tools Enhance Collaboration
-1 .Transparency: Everyone can see ongoing work and progress.  
-2. Accountability: Assigning Issues ensures ownership of tasks.  
-3. Efficiency: Teams can prioritize tasks, reduce bottlenecks, and stay organized.  
+2. Managing Tasks:
+    - Tasks can be broken down into Issues and assigned to contributors with deadlines.
+    - Example: A project manager creates Issues for UI redesign tasks and assigns them to frontend developers.
+
+3. Improving Project Organization:
+    - GitHub Project Boards use Kanban-style task management to categorize work into columns like `To Do`, `In Progress`, and `Done`.
+    - Example: A DevOps team managing infrastructure changes creates a board with tasks for configuring AWS, setting up CI/CD, and monitoring logs.
+
+How These Tools Enhance Collaboration:
+
+1. Transparency: Everyone can see ongoing work and progress.
+2. Accountability: Assigning Issues ensures ownership of tasks.
+3. Efficiency: Teams can prioritize tasks, reduce bottlenecks, and stay organized.
 4. Integration: Connect Issues to pull requests, linking discussions to actual code changes.
 
 ## Reflect on common challenges and best practices associated with using GitHub for version control. What are some common pitfalls new users might encounter, and what strategies can be employed to overcome them and ensure smooth collaboration?
-
 Common Pitfalls & Solutions in GitHub Version Control
-1️. Messy Commit History
 
-- Problem: Vague commit messages make it hard to track changes.
-- Solution: Use clear, structured commit messages like `feat(auth): add login API`.
-  2️. Merging Conflicts
-- Problem: Simultaneous edits to the same file cause conflicts.
-- Solution: Regularly pull changes, use feature branches, and resolve conflicts carefully.
+1. Messy Commit History
+    - Problem: Vague commit messages make it hard to track changes.
+    - Solution: Use clear, structured commit messages like `feat(auth): add login API`.
+
+2. Merging Conflicts
+    - Problem: Simultaneous edits to the same file cause conflicts.
+    - Solution: Regularly pull changes, use feature branches, and resolve conflicts carefully.
 
 3. Force Push Issues
-   - Problem: `git push --force` can overwrite teammates' work.
-   - Solution: Use `git pull --rebase` before pushing, and avoid force-pushing unless necessary.
+    - Problem: `git push --force` can overwrite teammates' work.
+    - Solution: Use `git pull --rebase` before pushing, and avoid force-pushing unless necessary.
